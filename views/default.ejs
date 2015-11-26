@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head><% include partials/page/head.ejs%></head>
+  <body class="<%=title%>">
+      
+      <% include partials/page/header.ejs%>
+      <div class="container">
+          <h1> <%=pagetitle%> <%=title%></h1>
+      
+      
+      
+        <p>
+         sdsf dfsdf sdfas dfasdf dfr g b    regfbffbr r brefberkbf rfrejfnrfr referf erfrefer ferfer             ferfwe rferg bhytb ynu njmjmuj mukmkm hgnmh jm km,k, k  n ghnghn j mjh jk jk jhj k  k iuloil            ioliloil ,hj khj ghj gju j d hfdh trhrh trhtrh
+        </p>
+          
+          <% if(typeof(users)!=='undefined'){ %>
+            <ul>
+            <%for(var i=0;i<users.length;i++){%>
+                <li><%=users[i]%></li>
+            <%}%>
+            </ul>           
+          <% } %>
+         
+      
+      </div><!--end of container-->
+      
+      <% include partials/page/footer.ejs%>
+      <% include partials/page/jsdefaults.ejs%>   
+  </body>
+</html>
+
+        
+   
